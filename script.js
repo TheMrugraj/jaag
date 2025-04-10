@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     populateFilterOptions();
     renderCards(profileData);
     setupEventListeners();
-    createLogo();
+    // createLogo();
 });
 
 // Create and append a logo using canvas (if logo.png is not available)
