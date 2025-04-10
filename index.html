@@ -25,24 +25,41 @@
     </section>
 
     <section class="filters">
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search by name...">
+        <div class="filters-wrapper">
+            <div class="search-container" role="search">
+                <label for="search-input" class="visually-hidden">Search by name</label>
+                <input type="text" id="search-input" placeholder="Search by name..." aria-label="Search alumni by name">
+            </div>
+            <div class="filter-container">
+                <label for="designation-filter" class="visually-hidden">Filter by designation</label>
+                <select id="designation-filter" aria-label="Filter by designation">
+                    <option value="">All Designations</option>
+                    <!-- Will be populated dynamically from profileData -->
+                </select>
+                <label for="year-filter" class="visually-hidden">Filter by year</label>
+                <select id="year-filter" aria-label="Filter by year">
+                    <option value="">All Years</option>
+                    <!-- Will be populated dynamically from profileData -->
+                </select>
+                <label for="tag-filter" class="visually-hidden">Filter by tag</label>
+                <select id="tag-filter" aria-label="Filter by tag">
+                    <option value="">All Tags</option>
+                    <!-- Will be populated dynamically from profileData -->
+                </select>
+                <button id="clear-filters" aria-label="Clear all filters">Clear Filters</button>
+            </div>
         </div>
-        <div class="filter-container">
-            <select id="designation-filter">
-                <option value="">All Designations</option>
-                <!-- Will be populated dynamically from profileData -->
-            </select>
-            <select id="year-filter">
-                <option value="">All Years</option>
-                <!-- Will be populated dynamically from profileData -->
-            </select>
-            <select id="tag-filter">
-                <option value="">All Tags</option>
-                <!-- Will be populated dynamically from profileData -->
-            </select>
-            <button id="clear-filters">Clear Filters</button>
+        
+        <div class="note-container important-notice">
+            <div class="notice-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="notice-content">
+                <h3>Important Notice</h3>
+                <p>Although the page is accessible, please refrain from sharing it with non-Navodians to help maintain the security of our network.</p>
+            </div>
         </div>
+        
     </section>
 
     <section class="card-grid" id="card-grid">

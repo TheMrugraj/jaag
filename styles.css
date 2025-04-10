@@ -16,6 +16,18 @@
     box-sizing: border-box;
 }
 
+/* Accessibility - visually hide labels but keep them accessible for screen readers */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
@@ -103,9 +115,17 @@ header {
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
 }
+/* Filters wrapper - to make search and filters display side by side */
+.filters-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1.2rem;
+}
 
 .search-container {
-    margin-bottom: 1.2rem;
+    flex: 1;
+    min-width: 200px;
 }
 
 #search-input {
@@ -172,6 +192,50 @@ select {
 #clear-filters:hover {
     background-color: var(--primary-color);
     color: var(--white);
+}
+
+/* Important Notice */
+.note-container.important-notice {
+    display: flex;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(227, 61, 79, 0.1);
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notice-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.notice-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.3rem;
+}
+
+.notice-content p {
+    font-size: 0.95rem;
+    color: var(--dark-gray);
+}
+
+@media (max-width: 768px) {
+    .note-container.important-notice {
+        flex-direction: column;
+    }
+    
+    .notice-icon {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
 }
 
 /* Card Grid */
@@ -260,9 +324,19 @@ footer {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    .filters-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .search-container {
+        width: 100%;
+    }
+    
     .filter-container {
         flex-direction: column;
         align-items: stretch;
+        width: 100%;
     }
     
     select, .tag-filters, #clear-filters {
