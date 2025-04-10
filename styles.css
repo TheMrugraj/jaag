@@ -35,10 +35,23 @@ header {
     top: 0;
     z-index: 100;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
 .logo img {
     height: 100px;
 }
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-gray);
+    white-space: nowrap;
+}
+
 
 .form-link a {
     display: inline-block;
