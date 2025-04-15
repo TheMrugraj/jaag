@@ -2056,6 +2056,83 @@ const profileData = [
         "Job",
         "⁠Engineering & Technology"
       ]
+    },
+    {
+      "id": 165,
+      "name": "Dharmesh Barot",
+      "year": "2019",
+      "designation": "Crime Scene Manager",
+      "tags": [
+        "GANDHINAGAR",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Snehal Desai(Sachin)",
+      "year": "2009",
+      "designation": "ICT Officer",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Gunjan Bhingaradiya",
+      "year": "2021",
+      "designation": "MERN stack developer",
+      "tags": [
+        "Ahmedabad, Gujarat",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "DR.VINIT JANI",
+      "year": "2017",
+      "designation": "Medical officer (Bonded)",
+      "tags": [
+        "Dhansura",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Kaushal Ballar",
+      "year": "2021",
+      "designation": "Company owner",
+      "tags": [
+        "Ankleshwar",
+        "Business",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Dhaval Patel",
+      "year": "2011",
+      "designation": "VP of software Engineer",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "DILIPKUMAR ISHWARBHAI CHADHARY",
+      "year": "2007",
+      "designation": "Director- Aircraft Airworthiness & Flight Engineering",
+      "tags": [
+        "Dubai-UAE",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
     }
   ];
 
