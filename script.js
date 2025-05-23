@@ -2133,6 +2133,336 @@ const profileData = [
         "Job",
         "⁠Engineering & Technology"
       ]
+    },
+    {
+      "id": 2,
+      "name": "Vaishakhi Arbastani",
+      "year": "2020",
+      "designation": "GET WTP Designing",
+      "tags": [
+        "Kalol",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Yatin kumar ashokbhai patel",
+      "year": "2008",
+      "designation": "Agriculturist",
+      "tags": [
+        "Vadodara",
+        "Business",
+        "Agriculture & Food Industry"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Janak Makwana",
+      "year": "2009",
+      "designation": "Facility Manager",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ankit Rameshbhai Patel",
+      "year": "2009",
+      "designation": "Deputy collector",
+      "tags": [
+        "Palitana, Bhavnagar",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Deep Pravinkumar Thanki",
+      "year": "2009",
+      "designation": "State Tax Inspector",
+      "tags": [
+        "Vadodara",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kalpesh K Padhiyar",
+      "year": "2009",
+      "designation": "R&D associate",
+      "tags": [
+        "Jaspur Padra Vadodara",
+        "Job",
+        "Science & Environmental Studies"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Pankaj Rathi",
+      "year": "2009",
+      "designation": "Application Engineer",
+      "tags": [
+        "Montreal",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bhavya Patel",
+      "year": "2017",
+      "designation": "Software Engineer",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Jimykant Krushnakant Vaghela",
+      "year": "2020",
+      "designation": "Software Engineer",
+      "tags": [
+        "Chhatral, Kalol",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Ankur Patel",
+      "year": "2014",
+      "designation": "Chartered Accountant (Asst. Manager)",
+      "tags": [
+        "Ahmedabad",
+        "Job",
+        "⁠Financial Services"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Dr.Vaibhavi Patel",
+      "year": "2014",
+      "designation": "Resident physician",
+      "tags": [
+        "Baroda",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Nilesh Parmar",
+      "year": "2010",
+      "designation": "ARTO",
+      "tags": [
+        "Ahmedabad",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Kunal Kachariya",
+      "year": "2018",
+      "designation": "Management Trainee",
+      "tags": [
+        "Mumbai",
+        "Job",
+        "⁠Financial Services"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Kinjal Patel",
+      "year": "2009",
+      "designation": "Software architect",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Krunalkumar chaudhari",
+      "year": "2020",
+      "designation": "GET",
+      "tags": [
+        "Vadodara",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Vishal Indrapuri",
+      "year": "2010",
+      "designation": "Deputy Manager",
+      "tags": [
+        "Kalol",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Ranvirsinh Sisodiya",
+      "year": "2015",
+      "designation": "CRM TESTER",
+      "tags": [
+        "Ahmedabd",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Purvang jadav",
+      "year": "2015",
+      "designation": "Associate",
+      "tags": [
+        "Nadiad",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Kinjal Parmar",
+      "year": "2013",
+      "designation": "Staff nurse",
+      "tags": [
+        "Ahmedabad",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Neel Mukeshbhai Patel",
+      "year": "2018",
+      "designation": "Doctor",
+      "tags": [
+        "Sokhada",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "RAHUL K",
+      "year": "2009",
+      "designation": "Deputy manager",
+      "tags": [
+        "Ahmedabad",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Nisha Chaudhary",
+      "year": "2012",
+      "designation": "Registered Nurse and RM @ Ahemdabad civil",
+      "tags": [
+        "Chhala Gandhinagar",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "BhavikKumar Prajapati",
+      "year": "2016",
+      "designation": "Teacher",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Education & Research"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Bhavin Kamleshbhai Trivedi",
+      "year": "2014",
+      "designation": "Talati Cum Mantri",
+      "tags": [
+        "Gandhinagar",
+        "Job",
+        "⁠Government & Public Services"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Hardik S Patel",
+      "year": "2009",
+      "designation": "QA Head",
+      "tags": [
+        "Sanand",
+        "Job",
+        "Medical & Healthcare"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Leena Pal",
+      "year": "2019",
+      "designation": "COC Coordinator (Branch Coordinator)",
+      "tags": [
+        "Ahmedabad",
+        "Job",
+        "Business, Management, HR & E"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Harsh Mukeshbhai Pandya",
+      "year": "2020",
+      "designation": "I have my own business.",
+      "tags": [
+        "Dahegam, Gandhinagar",
+        "Business",
+        "Social Work & NGOs"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Dhaval Jain",
+      "year": "2015",
+      "designation": "Production manager",
+      "tags": [
+        "Melbourne",
+        "Job",
+        "Skilled Trades & Technical Services"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "ADV.Harshad Solanki",
+      "year": "2017",
+      "designation": "Learned ADVOCATE",
+      "tags": [
+        "Kalol",
+        "Business",
+        "Law & Judiciary"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Krupa Jani",
+      "year": "2020",
+      "designation": "Graduate engineer trainee",
+      "tags": [
+        "Chennai",
+        "Job",
+        "⁠Engineering & Technology"
+      ]
     }
   ];
 
